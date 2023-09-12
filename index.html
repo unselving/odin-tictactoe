@@ -8,9 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button id="startGame">Start New Game</button>
+    <dialog id="playerDialog">
+        <form name="addPlayers" method="dialog">
+            <label for="player1_Name">Player 1 Name:</label>
+            <input type="text" id="player1_Name" name="player1_Name">
+            <label for="player2_Name">Player 2 Name:</label>
+            <input type="text" id="player2_Name" name="player2_Name">
+            <button type="submit" name="submit">Submit</button>
+        </form>
+    </div>
+    </dialog>
     <div id="gameBoard-container">
 
     </div>
+    <dialog id="gameOverDialog">
+        
+    </dialog>
     <script src="script.js"></script>
 </body>
 </html>
